@@ -13,12 +13,12 @@ class App extends Component {
         <div className="App">
           <header className="App-header">
             <Link to="/henriquenasc">About</Link>
-            <Link to="/projects">Projects</Link>
-            <Link to="/labs">Labs</Link>
+            <Link to="/henriquenasc/projects">Projects</Link>
+            <Link to="/henriquenasc/labs">Labs</Link>
           </header>
           <Route exact path="/henriquenasc" component={About} />
-          <Route exact path="/projects" component={Projects} />
-          <Route exact path="/labs" component={Labs} />
+          <Route exact path="/henriquenasc/projects" component={Projects} />
+          <Route exact path="/henriquenasc/labs" component={Labs} />
           {/* <Route exact path='*' component={NotFound} /> */}
         </div>
       </Router>
