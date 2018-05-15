@@ -16,9 +16,8 @@ export default class About extends Component {
             Computer enthusiast, passionate about new technologies and people. I
             like communities like (open source, open data, makers, developers
             and others).
-          </p>
-
-          <p className="about-description-text">
+            <br />
+            <br />
             Currently studying things like javascript, python and java. You can
             follow my projects in my github and my curriculum in linkedin.
           </p>
@@ -34,11 +33,41 @@ export default class About extends Component {
         <div className="content-icons-socials">
           <ul>
             <li>
-              <a href="https://www.facebook.com/HenriqueNascimentoRC">
+              <a href="https://www.linkedin.com/in/henrique-nascimento-021901117/">
                 <img
                   className="icon-social"
-                  src={require("../imgs/icons/facebook.svg")}
-                  alt="svg facebook"
+                  src={require("../imgs/icons/linkedin.svg")}
+                  alt="svg linkedin"
+                />
+              </a>
+            </li>
+
+            <li>
+              <a href="mailto:henriquenascandrade@gmail.com">
+                <img
+                  className="icon-social"
+                  src={require("../imgs/icons/gmail.svg")}
+                  alt="svg gmail"
+                />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/henriquenrc/?hl=pt-br">
+                <img
+                  className="icon-social"
+                  src={require("../imgs/icons/instagram.svg")}
+                  alt="svg instagram"
+                />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://medium.com/@henriquenascimento">
+                <img
+                  className="icon-social"
+                  src={require("../imgs/icons/medium.svg")}
+                  alt="svg mediium"
                 />
               </a>
             </li>
@@ -69,26 +98,6 @@ export default class About extends Component {
                   className="icon-social"
                   src={require("../imgs/icons/stackoverflow.svg")}
                   alt="svg stackoverflow"
-                />
-              </a>
-            </li>
-
-            <li>
-              <a href="mailto:henriquenascandrade@gmail.com">
-                <img
-                  className="icon-social"
-                  src={require("../imgs/icons/gmail.svg")}
-                  alt="svg gmail"
-                />
-              </a>
-            </li>
-
-            <li>
-              <a href="https://www.linkedin.com/in/henrique-nascimento-021901117/">
-                <img
-                  className="icon-social"
-                  src={require("../imgs/icons/linkedin.svg")}
-                  alt="svg linkedin"
                 />
               </a>
             </li>
