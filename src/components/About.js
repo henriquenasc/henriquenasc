@@ -19,8 +19,7 @@ export default class About extends Component {
             <br />
             <br />
             Currently studying things like javascript, python and java. You can
-            follow my projects in my github and my curriculum
-            <a href="./static/curriculo.pdf">here</a>.
+            follow my projects in my github.
           </p>
           <div className="overlay-image">
             <img
@@ -98,6 +97,19 @@ export default class About extends Component {
                 <img
                   className="icon-social"
                   src={require("../imgs/icons/stackoverflow.svg")}
+                  alt="svg stackoverflow"
+                />
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://www.dropbox.com/s/3bli0oayyyr7h8n/curriculo.pdf?dl=0"
+                target="_blank"
+              >
+                <img
+                  className="icon-social"
+                  src={"https://png.icons8.com/metro/1600/document.png"}
                   alt="svg stackoverflow"
                 />
               </a>
