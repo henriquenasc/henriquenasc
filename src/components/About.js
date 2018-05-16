@@ -19,7 +19,8 @@ export default class About extends Component {
             <br />
             <br />
             Currently studying things like javascript, python and java. You can
-            follow my projects in my github and my curriculum in linkedin.
+            follow my projects in my github and my curriculum
+            <a href="./static/curriculo.pdf">here</a>.
           </p>
           <div className="overlay-image">
             <img
