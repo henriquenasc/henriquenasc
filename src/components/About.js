@@ -18,8 +18,8 @@ export default class About extends Component {
             and others).
             <br />
             <br />
-            Currently studying things like javascript, python and java. You can
-            follow my projects in my github.
+            Currently studying things like javascript e python. You can follow
+            my projects in my github.
           </p>
           <div className="overlay-image">
             <img
