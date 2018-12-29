@@ -6,7 +6,7 @@ export default class About extends Component {
       <div className="container">
         <p className="about-welcome-text">
           Hi! My name is{" "}
-          <span className="about-full-name">Henrique Nascimento</span>. I’m a 23
+          <span className="about-full-name">Henrique Nascimento</span>. I’m a 24
           year-old web developer.
         </p>
         <p />
@@ -14,12 +14,11 @@ export default class About extends Component {
         <div className="content-description">
           <p className="about-description-text">
             Computer enthusiast, passionate about new technologies and people. I
-            like communities like (open source, open data, makers, developers
-            and others).
+            like communities like (open source, makers, developers and others).
             <br />
             <br />
-            Currently studying things like javascript e python. You can follow
-            my projects in my github.
+            Currently studying things like javascript e php. You can follow my
+            projects in my github.
           </p>
           <div className="overlay-image">
             <img
