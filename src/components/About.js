@@ -17,8 +17,8 @@ export default class About extends Component {
             like communities like (open source, makers, developers and others).
             <br />
             <br />
-            Currently studying things like javascript e php. You can follow my
-            projects in my github.
+            Currently studying things like javascript and python. You can follow
+            my projects in my github.
           </p>
           <div className="overlay-image">
             <img
