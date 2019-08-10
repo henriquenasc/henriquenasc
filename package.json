@@ -2,7 +2,7 @@
   "name": "website",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://henriquenasc.github.io/",
+  "homepage": "https://henriquenasc.github.io/henriquenasc",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.9.0",
