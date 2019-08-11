@@ -2,17 +2,23 @@ import React from "react";
 import "./App.css";
 import NavBar from "./components/Menu";
 import Main from "./components/Main";
-import Footer from "./components/Footer";
+import Projects from "./components/Projects";
+
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <div className="container App-header">
-        <NavBar />
-        <Main />
-        <Footer />
+    <Router>
+      <div className="App">
+        <div className="container App-header">
+          <NavBar />
+          <Switch>
+            <Route exact path="/" component={Main} />
+            <Route path="/projects" component={Projects} />
+          </Switch>
+        </div>
       </div>
-    </div>
+    </Router>
   );
 }
 

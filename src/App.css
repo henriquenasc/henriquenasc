@@ -74,6 +74,11 @@ body {
 }
 
 /* social media styles */
+.content-icons-socials {
+  position: relative;
+  top: 50px;
+  text-align: left;
+}
 
 .content-icons-socials ul li {
   display: inline-block;
