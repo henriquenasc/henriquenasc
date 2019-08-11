@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./Footer";
 
 export default function Main() {
   return (
@@ -6,7 +7,7 @@ export default function Main() {
       <div className="description">
         <p className="text-header">
           Hi! My name is <span className="text-name">Henrique Nascimento</span>.
-          I’m a 25 year-old web developer.
+          I’m a 25 year-old.
         </p>
 
         <p className="sub-text">
@@ -20,6 +21,7 @@ export default function Main() {
           my github.
         </p>
       </div>
+      <Footer />
     </div>
   );
 }
