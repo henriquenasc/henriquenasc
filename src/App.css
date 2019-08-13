@@ -116,3 +116,17 @@ body {
     left: -20px;
   }
 }
+
+.card {
+  font-family: "Rubik", sans-serif;
+  border-radius: 10px;
+}
+
+.bg-projects {
+  position: relative;
+  top: 40px;
+}
+
+.card-header-title {
+  color: #444;
+}
