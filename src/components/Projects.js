@@ -4,7 +4,7 @@ import Project from "./Project";
 function Projects() {
   const projects = [
     {
-      name: "Person website",
+      name: "Website",
       description:
         "My personal site made with reactjs and hosted on github with gh-pages.",
       demo: "https://henriquenasc.github.io/henriquenasc/",
