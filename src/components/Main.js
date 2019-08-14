@@ -3,7 +3,7 @@ import Footer from "./Footer";
 
 export default function Main() {
   return (
-    <div className="section">
+    <div className="container">
       <div className="description">
         <p className="text-header">
           Hi! My name is <span className="text-name">Henrique Nascimento</span>.
